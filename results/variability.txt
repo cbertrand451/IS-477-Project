@@ -1,0 +1,2 @@
+Major income standard deviation: 11470.18180213382
+County PCI standard deviation: 5991.66898363102

@@ -1,0 +1,101 @@
+{
+  "schemaVersion": "http://datacite.org/schema/kernel-4",
+  "identifier": {
+    "identifierType": "Internal",
+    "identifier": "education-income-integration-2025"
+  },
+  "creators": [
+    {
+      "name": "Bertrand, Colin",
+      "nameType": "Education"
+    }
+  ],
+  "titles": [
+    {
+      "title": "Analysis of College Major Earnings and County-Level Income Data"
+    }
+  ],
+  "publisher": "IS 477 Course Project",
+  "publicationYear": "2025",
+  "resourceType": {
+    "resourceTypeGeneral": "Dataset",
+    "resourceType": "Integrated Education and Income Data Package"
+  },
+  "subjects": [
+    { "subject": "Income Analysis" },
+    { "subject": "U.S. Economics" },
+    { "subject": "College Major Outcomes" },
+    { "subject": "Data Integration" },
+    { "subject": "Workflow Automation" },
+    { "subject": "Snakemake" }
+  ],
+  "contributors": [
+    {
+      "contributorType": "DataCollector",
+      "name": "FiveThirtyEight"
+    },
+    {
+      "contributorType": "DataCollector",
+      "name": "Kaggle"
+    }
+  ],
+  "dates": [
+    {
+      "dateType": "Created",
+      "date": "2025-12-7"
+    }
+  ],
+  "language": "en",
+  "version": "1.0",
+  "descriptions": [
+    {
+      "descriptionType": "Abstract",
+      "description": "This dataset package integrates the FiveThirtyEight Recent College Graduates dataset with a publicly available U.S. county-level per-capita income dataset. The project examines income distributions across college majors and counties by constructing shared income tier categories and performing statistical comparison. All data processing steps are performed using automated workflows, including acquisition, SHA-256 integrity verification, cleaning, database loading, integration, and analysis. This metadata record describes the integrated dataset, the raw sources, and the reproducible workflow."
+    }
+  ],
+  "relatedIdentifiers": [
+    {
+      "relationType": "IsSourceOf",
+      "relatedIdentifierType": "URL",
+      "relatedIdentifier": "https://github.com/fivethirtyeight/data/tree/master/college-majors",
+      "resourceTypeGeneral": "Dataset"
+    },
+    {
+      "relationType": "IsSourceOf",
+      "relatedIdentifierType": "URL",
+      "relatedIdentifier": "https://www.kaggle.com/datasets/kabhishm/united-states-counties-by-per-capita-income",
+      "resourceTypeGeneral": "Dataset"
+    },
+    {
+      "relationType": "IsPartOf",
+      "relatedIdentifierType": "URL",
+      "relatedIdentifier": "https://box.illinois.edu/", 
+      "resourceTypeGeneral": "Dataset"
+    }
+  ],
+  "rightsList": [
+    {
+      "rights": "Public Domain",
+      "rightsUri": "https://creativecommons.org/publicdomain/zero/1.0/"
+    }
+  ],
+  "geoLocations": [],
+  "fundingReferences": [],
+  "alternateIdentifiers": [
+    {
+      "alternateIdentifierType": "InternalProjectPath",
+      "alternateIdentifier": "data/processed/education_income.db"
+    }
+  ],
+  "sizes": [
+    "Education Dataset (173 rows)",
+    "County Dataset (3231 rows)",
+    "Integrated Dataset"
+  ],
+  "formats": [
+    "CSV",
+    "SQLite",
+    "PNG",
+    "TXT"
+  ]
+}

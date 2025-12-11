@@ -1,0 +1,7 @@
+Assuming unrestricted shared filesystem usage.
+host: DESKTOP-HAJEQK5
+Building DAG of jobs...
+CyclicGraphException in rule clean_data in file "C:\Users\12248\OneDrive\Desktop\DataScienceProjects\IS477\Snakefile", line 61:
+Cyclic dependency on rule clean_data.
+
+Nothing to be done (all requested files are present and up to date).
